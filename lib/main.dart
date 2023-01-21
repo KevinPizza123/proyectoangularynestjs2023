@@ -2,7 +2,8 @@
 // ignore: prefer_const_constructors
 
 import 'package:flutter/material.dart';
-import 'package:proyecto2023chipu/pantalla_inicio.dart';
+import 'package:proyecto2023chipu/codigoqr.dart';
+
 
 
 void main() {
@@ -17,6 +18,6 @@ class MyApp extends StatelessWidget {
   
    return MaterialApp(
   debugShowCheckedModeBanner: false,
-   home: Pantalla_Inicio());
+   home: pantalla_lectorcodigo());
   }
 }
